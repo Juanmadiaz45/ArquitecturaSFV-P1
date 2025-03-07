@@ -90,7 +90,6 @@ El Dockerfile fue diseñado siguiendo buenas prácticas para garantizar un entor
    - Ejecución automática de pruebas unitarias e integración.   
 
 3. **Monitoreo y logging avanzados**  
-   - Integración con herramientas como Prometheus, Grafana o ELK Stack.  
    - Configuración de alertas para métricas críticas.
 
 
