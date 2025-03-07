@@ -94,8 +94,26 @@ El Dockerfile fue diseñado siguiendo buenas prácticas para garantizar un entor
 
 
 ## Instrucciones para Ejecutar
-1. Clona el repositorio.
-2. Navega al directorio del proyecto.
-3. Ejecuta el script de automatización:
+1. Clonar el repositorio:  
+   ```bash
+   git clone [URL_DEL_REPOSITORIO]
+   cd ArquitecturaSFV-P1
+
+2. Construir la imagen Docker:
+    ```bash
+    docker build -t devops-evaluation-app .
+
+3. Ejecutar el contenedor:
+    ```bash
+    docker run -p 8080:8080 --name devops-app -e PORT=8080 -e NODE_ENV=production -d devops-evaluation-app
+
+4. Verificar el funcionamiento:
+    ```bash
+    curl http://localhost:8080
+    
+### Para el .sh
+
+1. Navega al directorio del proyecto.
+2. Ejecuta el script de automatización:
    ```bash
    ./deploy.sh
