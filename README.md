@@ -73,7 +73,12 @@ El Dockerfile fue diseñado siguiendo buenas prácticas para garantizar un entor
    La aplicación incluye un endpoint de health (`/health`) y el script verifica activamente el funcionamiento del servicio, proporcionando feedback inmediato.
 
 ## Captura de Pantalla
-[Incluye al menos una captura de pantalla que muestre tu aplicación funcionando en el contenedor]
+
+![image](https://github.com/user-attachments/assets/e9d80de8-d319-45a5-b8d3-e440c72d365b)
+
+![image](https://github.com/user-attachments/assets/b1f1569e-9f2e-4bf0-bda3-e550fd2942d9)
+
+
 
 ## Mejoras Futuras
 1. **Implementación de orquestación con Docker Compose**  
